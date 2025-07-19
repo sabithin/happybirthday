@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday ❤️</title>
+  <style>
+    body {
+      background: url('https://i.imgur.com/YOUR_IMAGE.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #ff5e78;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    #letter {
+      display: none;
+      margin-top: 30px;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💌 For You 💌</h1>
+  <button onclick="showLetter()">For your special day</button>
+
+  <div id="letter">
+    <p><br>Happy Birthday to you Koche<br>
+    She turned 21<br>
+    July 20 2004, the light came from Heaven to Earth (نور – light).<br><br>
+    -From yours,<br>Sabithe</p>
+  </div>
+
+  <script>
+    function showLetter() {
+      document.getElementById("letter").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
